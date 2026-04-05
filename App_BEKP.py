@@ -22,7 +22,7 @@ import streamlit as st
 
 #Personalizacion app
 st.set_page_config(
-        page_icon="assets/logo_essity.png",
+    page_icon="assets/logo_essity.png",
     layout="centered"
 )
 
@@ -30,7 +30,7 @@ st.set_page_config(
 col1, col2 = st.columns([1,6])
 
 with col1:
-    st.image("assets/logo_essity.png", width=180)
+    st.image("assets/logo_essity.png", width=250)
 
 with col2:
     st.markdown(
