@@ -27,10 +27,13 @@ st.set_page_config(
 )
 
 # Header con logo
-col1, col2 = st.columns([1,6])
+col1, col2 = st.columns([2,6])
 
 with col1:
-    st.image("assets/logo_essity.png", width=250)
+    st.image("assets/logo_essity.png", width=350)
+
+with col2:
+    st.write("")  # espacio vacío para mantener alineación
 
 
 st.markdown("""
