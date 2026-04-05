@@ -32,11 +32,6 @@ col1, col2 = st.columns([1,6])
 with col1:
     st.image("assets/logo_essity.png", width=250)
 
-with col2:
-    st.markdown(
-        "<h2 style='color:#00005A;'>Forecast BEKP</h2>",
-        unsafe_allow_html=True
-    )
 
 st.markdown("""
 <style>
