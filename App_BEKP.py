@@ -20,6 +20,55 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
 
+#Personalizacion app
+st.set_page_config(
+    page_title="Forecast BEKP",
+    page_icon="assets/logo_essity.png",
+    layout="wide"
+)
+
+# Header con logo
+col1, col2 = st.columns([1,6])
+
+with col1:
+    st.image("assets/logo_essity.png", width=120)
+
+with col2:
+    st.markdown(
+        "<h2 style='color:#00005A;'>Forecast BEKP</h2>",
+        unsafe_allow_html=True
+    )
+
+st.markdown("""
+<style>
+
+h1, h2, h3 {
+    color: #00005A;
+}
+
+/* botones */
+.stButton>button {
+    background-color: #F50082;
+    color: white;
+    border-radius: 8px;
+}
+
+/* sidebar */
+[data-testid="stSidebar"] {
+    background-color: #F5F6FA;
+}
+
+/* métricas */
+[data-testid="metric-container"] {
+    background-color: white;
+    border-left: 5px solid #F50082;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
 #Cargamos el modelo
 import pickle
 filename = 'modelo-reg-BEKP.pkl'
