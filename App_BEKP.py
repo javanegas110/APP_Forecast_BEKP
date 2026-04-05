@@ -31,7 +31,7 @@ st.set_page_config(
 col1, col2 = st.columns([1,6])
 
 with col1:
-    st.image("assets/logo_essity.png", width=120)
+    st.image("assets/logo_essity.png", width=150)
 
 with col2:
     st.markdown(
