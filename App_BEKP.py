@@ -39,12 +39,12 @@ TTO_BHKP_CH = st.slider('TTO_BHKP_CH', min_value=400, max_value=1500, value=600,
 RISI_BSKP = st.slider('RISI_BSKP', min_value=400, max_value=2500, value=600, step=5)
 RISI_LPSBS = st.slider('RISI_LPSBS', min_value=100, max_value=500, value=200, step=5)
 RISI_OCC = st.slider('RISI_OCC', min_value=10, max_value=300, value=50, step=5)
-INV_BHKP = st.slider('INV_BHKP', min_value=20, max_value=100, value=40, step=2)
-INV_BSKP = st.slider('INV_BSKP', min_value=20, max_value=80, value=40, step=2)
-SHIP_BHKP = st.slider('SHIP_BHKP', min_value=1000, max_value=4000, value=2000, step=20)
-SHIP_BSKP = st.slider('SHIP_BSKP', min_value=1000, max_value=3000, value=2000, step=20)
-CPI_USA = st.slider('CPI_USA', min_value=-0.2, max_value=0.2, value=0.1, step=0.05)
-IRATE_USA = st.slider('IRATE_USA', min_value=-0.05, max_value=0.1, value=0.1, step=0.05)
+INV_BHKP = st.slider('INV_BHKP', min_value=20, max_value=100, value=40, step=5)
+INV_BSKP = st.slider('INV_BSKP', min_value=20, max_value=80, value=40, step=5)
+SHIP_BHKP = st.slider('SHIP_BHKP', min_value=1000, max_value=4000, value=2000, step=5)
+SHIP_BSKP = st.slider('SHIP_BSKP', min_value=1000, max_value=3000, value=2000, step=5)
+CPI_USA = st.slider('CPI_USA', min_value=-0.2, max_value=0.2, value=0.1, step=0.01)
+IRATE_USA = st.slider('IRATE_USA', min_value=-0.05, max_value=0.1, value=0.1, step=0.01)
 
 
 #Dataframe
